@@ -1,0 +1,56 @@
+* {
+    background-color: #30333b;
+    color: #45bfe0;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-header {
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+
+.centerAlign {
+    text-align: center;
+    color: rgb(247, 240, 231);
+    padding: 1em 1em 1em 0;
+    list-style-type: none;
+}
+
+.listStyle {
+    text-align: center;
+    padding: 1em 1em 1em 0;
+    list-style-type: none;
+}
+
+ul {
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+
+li img {
+    width: 25%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.inputText {
+    color: rgb(223, 86, 45);
+}
+
+.centerText {
+    text-align: center;
+}
+
+a:hover {
+    color: rgb(247, 240, 231);
+    text-decoration: underline;
+}
